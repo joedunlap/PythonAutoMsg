@@ -22,7 +22,7 @@ recipient_emails = ['joedunlap26@gmail.com', 'jamie.valenza@gmail.com']
 def send_email():
     print("Preparing to send email...")
     subject = 'Daily Reminder'
-    body = 'Me love you:)'
+    body = 'You are awesome!'
 
     # Create the email headers and message
     msg = MIMEMultipart()
